@@ -1,34 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-
-  <!-- Root element: Hotels --><schema targetNamespace="https://achntj.github.io/CSE445-XML/Hotels.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified">
-<element name="Hotels">
-<complexType>
-<sequence>
-<element name="Hotel" minOccurs="1" maxOccurs="unbounded"/>
-</sequence>
-</complexType>
-</element>
-<element name="Hotel">
-<complexType>
-<sequence>
-<element name="Name" type="string" minOccurs="1" maxOccurs="1"/>
-<element name="Phone" type="string" minOccurs="1" maxOccurs="unbounded"/>
-<element name="Address" minOccurs="1" maxOccurs="1"/>
-<element name="Rating" type="string" minOccurs="0" maxOccurs="1"/>
-</sequence>
-</complexType>
-</element>
-<element name="Address">
-<complexType>
-<sequence>
-<element name="Number" type="string" minOccurs="1" maxOccurs="1"/>
-<element name="Street" type="string" minOccurs="1" maxOccurs="1"/>
-<element name="City" type="string" minOccurs="1" maxOccurs="1"/>
-<element name="State" type="string" minOccurs="1" maxOccurs="1"/>
-<element name="Zip" type="string" minOccurs="1" maxOccurs="1"/>
-<element name="NearstAirport" type="string" minOccurs="0" maxOccurs="1"/>
-</sequence>
-</complexType>
-</element>
+<schema targetNamespace="https://Krills7.github.io/A4/Hotels.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <element name="Hotels">
+        <complexType>
+            <sequence>
+                <element name="Hotel" minOccurs="1" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="Hotel">
+        <complexType>
+            <sequence>
+                <element name="Name" type="string" minOccurs="1" maxOccurs="1"/>
+                <element name="Phone" type="string" minOccurs="1" maxOccurs="unbounded"/>
+                <element name="Address" minOccurs="1" maxOccurs="1"/>
+                <element name="Rating" type="string" minOccurs="0" maxOccurs="1"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="Address">
+        <complexType>
+            <sequence>
+                <element name="Number" type="string" minOccurs="1" maxOccurs="1"/>
+                <element name="Street" type="string" minOccurs="1" maxOccurs="1"/>
+                <element name="City" type="string" minOccurs="1" maxOccurs="1"/>
+                <element name="State" type="string" minOccurs="1" maxOccurs="1"/>
+                <element name="Zip" type="string" minOccurs="1" maxOccurs="1"/>
+                <element name="NearstAirport" type="string" minOccurs="0" maxOccurs="1"/>
+            </sequence>
+        </complexType>
+    </element>
 </schema>
