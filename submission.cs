@@ -18,9 +18,9 @@ namespace ConsoleApp1
     public class Program
     {
         // These URLs must point to your remotely hosted files.
-        public static string xmlURL = "https://sanskarsri26.github.io/assignment4-445/Hotels.xml";
-        public static string xmlErrorURL = "https://sanskarsri26.github.io/assignment4-445/HotelsErrors.xml";
-        public static string xsdURL = "https://sanskarsri26.github.io/assignment4-445/Hotels.xsd";
+        public static string xmlURL = "https://krills7.github.io/A4/Hotels.xml";
+        public static string xmlErrorURL = "https://krills7.github.io/A4//HotelsErrors.xml";
+        public static string xsdURL = "https://krills7.github.io/A4/Hotels.xml/Hotels.xsd";
 
         public static void Main(string[] args)
         {
