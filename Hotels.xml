@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels>
+  <Hotel Rating="4.5">
+    <Name>Hotel Phoenix</Name>
+    <Phone>602-123-4567</Phone>
+    <Phone>602-765-4321</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>101</Number>
+      <Street>Main St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85001</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.2">
+    <Name>Desert Inn</Name>
+    <Phone>480-111-2222</Phone>
+    <Address NearstAirport="Mesa Gateway">
+      <Number>202</Number>
+      <Street>Central Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="3.9">
+    <Name>Sunset Lodge</Name>
+    <Phone>602-333-4444</Phone>
+    <Address NearstAirport="Mesa Gateway">
+      <Number>303</Number>
+      <Street>Apache Blvd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85282</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.0">
+    <Name>Mountain View</Name>
+    <Phone>480-555-6666</Phone>
+    <Phone>480-777-8888</Phone>
+    <Address NearstAirport="Scottsdale Airport">
+      <Number>404</Number>
+      <Street>McDowell Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85260</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Budget Stay</Name>
+    <Phone>602-777-1234</Phone>
+    <Address NearstAirport="Mesa Gateway">
+      <Number>505</Number>
+      <Street>5th Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85002</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="3.5">
+    <Name>Airport Hotel</Name>
+    <Phone>602-888-9999</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>606</Number>
+      <Street>Airport Rd</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85034</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.1">
+    <Name>Valley Suites</Name>
+    <Phone>480-000-1234</Phone>
+    <Address NearstAirport="Mesa Gateway">
+      <Number>707</Number>
+      <Street>Valley Rd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85283</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="3.8">
+    <Name>Downtown Inn</Name>
+    <Phone>602-321-0000</Phone>
+    <Address NearstAirport="Mesa Gateway">
+      <Number>808</Number>
+      <Street>Washington St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.4">
+    <Name>Riverside Resort</Name>
+    <Phone>480-543-6789</Phone>
+    <Phone>480-543-6790</Phone>
+    <Address NearstAirport="Mesa Gateway">
+      <Number>909</Number>
+      <Street>Riverside Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85284</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="3.6">
+    <Name>Cozy Corner</Name>
+    <Phone>602-222-3333</Phone>
+    <Address NearstAirport="Mesa Gateway">
+      <Number>1001</Number>
+      <Street>Cozy Ln</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85005</Zip>
+    </Address>
+  </Hotel>
+</Hotels>

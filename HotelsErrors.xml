@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel> <!-- Error 1: wrong root element -->
+  <Hotel>
+    <Name>Westin</Name>
+    <Name>Duplicate Name</Name> <!-- Error 5: Duplicate Name element -->
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <Hotel> <!-- Error 2: missing required Rating attribute -->
+    <Name>Hyatt Place</Name>
+    <Address NearstAirport="Phoenix Sky Harbor"> <!-- Error 3: missing Phone -->
+      <Number>7300</Number>
+      <Street>E Evans Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85260</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="3.0">
+    <Name>Motel 6</Name>
+    <Phone>602-123-4567</Phone>
+    <Address NearstAirport="Phoenix Sky Harbor"> <!-- Error 4: address not closed -->
+      <Number>1530</Number>
+      <Street>N 52nd Dr</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85031</Zip>
+  </Hotel>
+</Hotel>
